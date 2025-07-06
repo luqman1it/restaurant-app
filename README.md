@@ -5,7 +5,7 @@ It allows users to:
 - Browse food categories
 - View menu items
 - View item details
-- Customize items (quantity, notes)
+- Customize items (quantity)
 - Add items to cart
 - Review cart and place an order
 
@@ -13,11 +13,11 @@ It allows users to:
 
 ## Features
 
-- ✅ Category filtering with horizontal scrolling
-- ✅ Search within categories and items
-- ✅ Modal popup for item details
-- ✅ Cart system with quantity, notes, and total price
-- ✅ Responsive and touch-friendly UI
+- Category filtering with horizontal scrolling
+- Search within categories and items
+- Modal popup for item details
+- Cart system with quantity, notes, and total price
+- Responsive and touch-friendly UI
 
 ---
 
@@ -26,8 +26,8 @@ It allows users to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/restaurant-menu-app.git
-cd restaurant-menu-app
+git clone https://github.com/luqman1it/restaurant-app
+cd restaurant-app
 ```
 
 ### 2. Install Dependencies
@@ -35,74 +35,7 @@ cd restaurant-menu-app
 ```bash
 npm install
 ```
-
-### 3. Run the App
-
-```bash
-npm run dev
-```
-
-Then open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## 📁 Project Structure
-
-```bash
-src/
-│
-├── api/              # API integration
-├── components/       # Reusable components
-├── context/          # Global state (CartContext)
-├── pages/            # Route-level components (Categories, Items)
-├── App.jsx           # Main layout and routes
-├── main.jsx          # App entry point
-```
-
----
-
-## 🔧 Technologies Used
-
-- React
-- React Router
-- React Context API
-- Axios
-- React Icons
-- Vite
-
----
-
-## 📷 Screenshots
-
-> You can add screenshots here in the future to show the UI.
-
----
-
-## 📤 Deployment
-
-To build the app for production:
-
-```bash
-npm run build
-```
-
-You can then host it using services like **Vercel**, **Netlify**, or **GitHub Pages**.
-
----
-
-## 🧑‍💻 Author
-
-- Developed by [Your Name]
-- Contact: [your-email@example.com]
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
----
-
-## 📦 Required Libraries
+## Required Libraries
 
 Make sure the following libraries are installed:
 
@@ -123,7 +56,33 @@ npm install react-icons
 ```bash
 npm install axios
 ```
+### 3. Run the App
 
-If you're using Vite (recommended), these work out of the box.
+```bash
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
+
+## Project Structure
+
+## Technologies Used
+
+- React
+- React Router
+- React Context API
+- Axios
+- React Icons
+- Vite
+
+
+## 🧑‍💻 Author
+
+- Developed by [luqman Ali]
+- Contact: [luqman1it@gmail.com]
+
+
+
+
