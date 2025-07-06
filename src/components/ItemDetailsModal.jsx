@@ -3,6 +3,7 @@ import { useCart } from '../context/CartContext';
 import { FaPlus, FaSearch } from 'react-icons/fa';
 const ItemDetailsModal = ({ item, onClose }) => {
     const [quantity, setQuantity] = useState(1);
+    const [notes, setNotes] = useState('');
 
     const { addToCart } = useCart();
     const FaPlusIcon = FaPlus;
